@@ -11,10 +11,20 @@
 	<%@include file= "header.jsp" %>
 	<div class="test">
 	<form action="#" method="post">
-	<p>name
-	<input type="text" name="name"></p>
-	<p>id
-	<input type="text" name="id"></p>
+	<!-- <span class="name">name</span>
+	<input type="text" name="name">
+	<span class="name">id</span>
+	<input type="text" name="id"> -->
+	<table>
+	<tr>
+	<th>name</th>
+	<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+	<th>id</th>
+	<td><input type="text" name="id"></td>
+	</tr>
+	</table>
 	</form>
 	</div>
 	<%@include file= "footer.jsp" %>
